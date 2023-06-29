@@ -30,7 +30,7 @@ server.httpServer = http.createServer((req: IncomingMessage, res: ServerResponse
             </html>`;
     }
 
-    if (req.url === '/css/main.css') {
+    if (req.url === '/main.css') {
         responseContent = `body,
             body * {
                 margin: 0;
